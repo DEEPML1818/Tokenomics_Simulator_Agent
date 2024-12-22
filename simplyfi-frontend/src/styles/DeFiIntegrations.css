@@ -1,0 +1,95 @@
+/* General Container */
+.defi-integrations {
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .defi-integrations h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00d1b2;
+  }
+  
+  /* Simulation Tools Section */
+  .simulation-tools {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #00d1b2;
+    margin-bottom: 30px;
+  }
+  
+  .simulation-tools h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .action-card {
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #00d1b2;
+  }
+  
+  .action-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .action-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00d1b2;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .action-card .cta-button {
+    background-color: #00d1b2;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-card .cta-button:hover {
+    background-color: #00a396;
+  }
+  
+  /* Integration Overview Section */
+  .integration-overview {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1f1f1f;
+    border: 1px solid #00d1b2;
+  }
+  
+  .integration-overview h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00d1b2;
+  }
+  
+  .integration-overview ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .integration-overview li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .integration-overview li strong {
+    color: #00d1b2;
+  }
+  

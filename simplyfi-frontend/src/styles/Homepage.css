@@ -1,0 +1,110 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #1f1f1f, #121212);
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero .cta-button {
+    background-color: #00d1b2;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero .cta-button:hover {
+    background-color: #00a396;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 50px 20px;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #00d1b2;
+  }
+  
+  .feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 16px;
+    color: #cccccc;
+  }
+  
+  /* Get Started Section */
+  .get-started {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .get-started h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .get-started ol {
+    list-style: decimal;
+    margin: 0 auto 20px;
+    padding-left: 20px;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .get-started li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #cccccc;
+  }
+  
+  .get-started .cta-button {
+    background-color: #00d1b2;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .get-started .cta-button:hover {
+    background-color: #00a396;
+  }
+  

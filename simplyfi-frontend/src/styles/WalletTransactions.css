@@ -1,0 +1,93 @@
+/* General Container */
+.wallet-transactions {
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .wallet-transactions h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #00d1b2;
+  }
+  
+  .wallet-transactions p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #bbbbbb;
+    font-size: 16px;
+  }
+  
+  /* Wallet Section */
+  .wallet-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .wallet-info {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00d1b2;
+  }
+  
+  .wallet-info p {
+    margin-bottom: 10px;
+  }
+  
+  /* Transactions Section */
+  .transactions-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #00d1b2;
+  }
+  
+  .transactions-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00d1b2;
+  }
+  
+  .transactions-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .transactions-section th,
+  .transactions-section td {
+    border: 1px solid #00d1b2;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .transactions-section th {
+    background-color: #00d1b2;
+    color: #000000;
+  }
+  
+  .transactions-section td {
+    background-color: #121212;
+  }
+  
+  .transactions-section tr:nth-child(even) td {
+    background-color: #1e1e1e;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00d1b2;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #00a396;
+  }
+  
