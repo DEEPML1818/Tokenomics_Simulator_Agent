@@ -1,0 +1,128 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+    line-height: 1.6;
+  }
+  
+  /* Layout Helpers */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Headers and Footers */
+  header, footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  a {
+    color: #00d1b2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, footer {
+    background-color: #1f1f1f;
+    color: #ff6f61;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .section {
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    border: 1px solid #ff6f61;
+  }
+  
+  .section.homepage {
+    text-align: center;
+    background-color: #121212;
+    border: none;
+  }
+  
+  .section.trading-panel {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .panel.left, .panel.right {
+    border: 1px solid #ff6f61;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .section.features {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .section.features > * {
+    flex: 1;
+  }
+  
+  .section.trading {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .section.trading > * {
+    flex: 1;
+  }
+  
+  /* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ff6f61;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #121212;
+  }
+  
